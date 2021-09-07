@@ -1,0 +1,99 @@
+body {
+    font: 100% Lucida Sans, Verdana;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+#top {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 15px;
+    height: 80px;
+}
+
+.graph {
+    width: 400px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.form {
+    width: 250px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+table {
+    margin: 0px;
+    padding: 2px;
+    text-align: center;
+    font-size: medium;
+}
+
+.graph, .form, .table {
+    border-style: solid;
+    border-color: #4CAF50;
+    border-radius: 4px;
+}
+
+label {
+    font-size: medium;
+}
+
+label, select, input {
+    margin: 5px;
+    min-width: 200px;
+}
+
+ul {
+    list-style-type: none;
+    border: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #4CAF50;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+  
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+div {
+    font-size: medium;
+}
+
+tr th:first-child, tr td:first-child {
+    min-width: 300px;
+}
+
+tr td:first-child {
+    text-align: left;
+}
+
+div p {
+    margin-left: 8px;
+    margin-bottom: 0;
+    font-size: small;
+    border: 0;
+    padding: 1px;
+}
